@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Basic HTML Page</title>
+            <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+        </head>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script></head>
+<meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+    $(document).ready(function(){
+      $("#hide").click(function(){
+        $("p").hide("p");
+      });
+      $("#show").click(function(){
+        $("p").show("p");
+      });
+    });
+    </script>
+    <script> 
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").slideDown("slow");
+          });
+        });
+        </script>
+        <style> 
+        #panel, #flip {
+          padding: 5px;
+          text-align: center;
+          background-color: #728FCE;
+          border: solid 1px #c3c3c3;
+        }
+        
+        #panel {
+          padding: 50px;
+          display: none;
+        }
+        </style>
+<script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("p").toggle();
+      });
+    });
+    </script>
+  <script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("#p1").css("color", "pink").slideUp(2000).slideDown(2000);
+      });
+    });
+    </script>
+<title>Fun Facts</title>
+</head>
+<body>
+<header>
+   <h1>Fun Facts</h1>
+  
+   <div class="navbar">
+       <a href="index.html">Home</a>
+       <a href="types.html">Types</a>
+       <a href="history.html">History</a>
+       <a href="materialize.html">Materialize</a>
+       <a href="jquery.html">JQuery</a>
+   </div>
+
+</header>
+    <body>
+        
+        <main>
+            <section>
+                <h2>Do you know what the smallest species of shark is?</h2>
+      
+            </section>
+            <section>
+
+<p>The smallest shark is the Dwarf Lantern Shark.</p>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+            </section>
+            <section><div id="flip">Do you know how many species of sharks there are?</div>
+                <div id="panel">There are more than 500 different species of sharks!</div>
+            </section>
+           
+            <section style="background-color: #728FCE;">
+                <p id="p1">sharksRcool!</p>
+                
+                
+                <button>Click me</button>
+                
+                
+                
+                
+                </section>
+        </main>
+        
+        <footer>
+            <p>Contact us: info@sharksrcool.com | &copy; 2024 sharksRcool</p>
+        </footer>
+    
+    
+        <script src="script.js"></script> <!-- Link to JavaScript file -->
+    </body>
+    </html>
+    

@@ -30,22 +30,12 @@
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Embed YouTube Video</title>
 </head>
 <body>
 
-
-   <!-- Navbar -->
-   <nav class="header-bg">
-       <div class="nav-wrapper">
-<ul>
-   <li><a href="index.html">Home</a></li>
-   <li> <a href="history.html">History of Sharks</a></li>
-  <li> <a href="types.html">Types of Sharks</a></li>
- <li><a href="materialize.html">Materialize</a></li>           
-           </ul>
-       </div>
-   </div>
-   </nav>
 
 
 
@@ -55,7 +45,16 @@
        <h1 class="white-text">Welcome to sharksrcool</h1>
        <p class="white-text">Information on all types of sharks!</p>
    </div>
-
+   <div class="container">
+    <ul class="pagination">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="bootstrap.html">Bootstrap</a></li>
+      <li><a href="history.html">History</a></li>
+      <li><a href="types.html">Types</a></li>
+      <li><a href="jquery.html">JQuery</a></li>
+      <li class="active"><a href="materialize.html">Materialize</a></li>
+    </ul>
+  </div>
 
    <!-- About Us Section -->
    <div id="about" class="section section-bg">
@@ -63,8 +62,8 @@
            <div class="row">
                <div class="col s12 m6">
               
-                   <h2>About Us</h2>
-                   <p>sharksrcool is all about sharks! We love sharing our love for the apeciaes and teching about the importance of sharks in our oceans!</p>
+                 <h2 class="white-text">About Us</h2>
+                   <p class="white-text">sharksrcool is all about sharks! We love sharing our love for the apeciaes and teching about the importance of sharks in our oceans!</p>
                </div>
                <div class="col s12 m6">
                    <img src="https://cdn.britannica.com/79/65379-050-5CF52BAC/Shortfin-mako-shark-seas.jpg" alt="Shark Image" class="responsive-img shadow">
@@ -128,12 +127,12 @@
        </div>
       </div>
       <div class="video-container">
-        <iframe width="853" height="480" src="https://www.youtube.com/watch?v=U-stD6-sroM" frameborder="0" allowfullscreen></iframe>
+        <iframe width="853" height="480" src="https://www.youtube.com/watch?v=WzKs948SEZ8" frameborder="0" allowfullscreen></iframe>
       </div>
    <!-- Contact Section -->
    <div id="contact" class="section section-bg">
        <div class="container">
-           <h2>Contact Us</h2>
+           <h2 class="white-text">Contact Us</h2>
            <div class="row">
                <div class="col s12 m6">
                    <form>
@@ -153,26 +152,15 @@
                    </form>
                </div>
                <div class="col s12 m6">
-                   <h5>Visit Us</h5>
-                   <p>123 Hammerhead St,<br> Shark City, SC 12345</p>
-                   <p><i class="material-icons">phone</i> (123) 456-7890</p>
-                   <p><i class="material-icons">email</i> contact@sharksrcool.com</p>
+                   <h5 class="white-text">Visit Us</h5>
+                   <p class="white-text">123 Hammerhead St,<br> Shark City, SC 12345</p>
+                   <p class="white-text"><i class="material-icons">phone</i> (123) 456-7890</p>
+                   <p class="white-text"><i class="material-icons">email</i> contact@sharksrcool.com</p>
                </div>
            </div>
        </div>
    </div>
-   <div class="container">
-    <h2>Pagination - Active State</h2>
-    <p>Add class .active to let the user know which page he/she is on:</p>
-    <ul class="pagination">
-      <li><a href="index.html">1</a></li>
-      <li><a href="bootstrap.html">2</a></li>
-      <li><a href="history.html">3</a></li>
-      <li><a href="types.html">4</a></li>
-      <li><a href="jquery.html">5</a></li>
-      <li class="active"><a href="materialize.html">6</a></li>
-    </ul>
-  </div>
+ 
 
    <footer>
     <p>Contact us: info@sharksrcool.com | &copy; 2024 sharksRcool</p>
